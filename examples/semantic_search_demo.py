@@ -17,6 +17,7 @@ from text2vec import SentenceModel, cos_sim, semantic_search, BM25
 import torch
 
 embedder = SentenceModel("shibing624/text2vec-base-multilingual")
+embedder = SentenceModel("shibing624/text2vec-base-chinese-paraphrase")
 
 # Corpus with example sentences
 corpus = [
